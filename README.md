@@ -17,21 +17,21 @@ This is an simple authentication system built with laravel 8.
 
 ## Instalation
 1. Download package [here](https://github.com/OpsAhmad/LaravelSimpleAuthentication/archive/main.zip)
-1. Unzip package
-1. Create database and setup on your .env file
-1. Run migration 
+2. Unzip package
+3. Create database and setup on your .env file
+4. Run migration 
 ```bash
 php artisan migrate
 ```
-1. Seed the user table
+5. Seed the user table
 ```bash
 php artisan db:seed --class=userSeeder
 ```
-1. On root directory run this command to activate local server
+6. On root directory run this command to activate local server
 ```bash
 php artisan serve
 ```
-1. Now open http://127.0.0.1:8000 on your browser
+7. Now open http://127.0.0.1:8000 on your browser
 
 
 Thanks.
